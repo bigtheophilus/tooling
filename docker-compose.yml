@@ -7,3 +7,7 @@ services:
       - 8080:80
     volumes:
       - ./tooling/html:/var/www/html/
+
+network:
+  impact:
+   external: true
